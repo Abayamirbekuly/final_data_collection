@@ -1,0 +1,461 @@
+[2025-12-17T10:05:46.386+0000] {processor.py:161} INFO - Started process (PID=32) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:05:46.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:05:46.426+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:05:46.422+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:05:46.611+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:05:46.544+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:05:46.616+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:05:46.956+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.678 seconds
+[2025-12-17T10:06:17.745+0000] {processor.py:161} INFO - Started process (PID=43) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:06:17.760+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:06:17.767+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:06:17.763+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:06:17.823+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:06:17.811+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:06:17.826+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:06:18.555+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.820 seconds
+[2025-12-17T10:06:50.988+0000] {processor.py:161} INFO - Started process (PID=47) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:06:51.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:06:51.020+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:06:51.019+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:06:51.106+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:06:51.085+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:06:51.112+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:07:25.484+0000] {processor.py:161} INFO - Started process (PID=32) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:07:25.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:07:25.490+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:07:25.489+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:07:25.538+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:07:25.529+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:07:25.541+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:07:25.699+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.226 seconds
+[2025-12-17T10:08:03.366+0000] {processor.py:161} INFO - Started process (PID=43) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:08:03.370+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:08:03.372+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:08:03.371+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:08:03.415+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:08:03.406+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:08:03.420+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:08:03.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.144 seconds
+[2025-12-17T10:08:33.772+0000] {processor.py:161} INFO - Started process (PID=47) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:08:33.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:08:33.777+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:08:33.776+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:08:33.807+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:08:33.799+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:08:33.809+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:08:33.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.173 seconds
+[2025-12-17T10:09:04.566+0000] {processor.py:161} INFO - Started process (PID=54) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:09:04.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:09:04.575+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:09:04.574+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:09:04.656+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:09:04.635+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:09:04.662+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:09:04.783+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.223 seconds
+[2025-12-17T10:09:45.895+0000] {processor.py:161} INFO - Started process (PID=57) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:09:45.901+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:09:45.907+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:09:45.905+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:09:45.967+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:09:45.942+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:09:45.977+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:09:46.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.218 seconds
+[2025-12-17T10:10:17.151+0000] {processor.py:161} INFO - Started process (PID=61) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:10:17.154+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:10:17.156+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:10:17.155+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:10:17.206+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:10:17.192+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:10:17.209+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:10:17.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.183 seconds
+[2025-12-17T10:10:48.215+0000] {processor.py:161} INFO - Started process (PID=65) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:10:48.230+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:10:48.235+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:10:48.234+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:10:48.285+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:10:48.275+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:10:48.291+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:10:48.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.167 seconds
+[2025-12-17T10:11:24.173+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:11:24.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:11:24.177+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:11:24.176+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:11:24.211+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:11:24.203+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:11:24.214+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:11:24.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.119 seconds
+[2025-12-17T10:11:54.551+0000] {processor.py:161} INFO - Started process (PID=72) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:11:54.558+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:11:54.562+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:11:54.561+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:11:54.603+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:11:54.596+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:11:54.608+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:11:54.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.179 seconds
+[2025-12-17T10:12:25.637+0000] {processor.py:161} INFO - Started process (PID=75) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:12:25.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:12:25.658+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:12:25.658+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:12:25.709+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:12:25.699+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:12:25.714+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:12:25.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.172 seconds
+[2025-12-17T10:12:56.099+0000] {processor.py:161} INFO - Started process (PID=78) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:12:56.101+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:12:56.103+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:12:56.103+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:12:56.139+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:12:56.132+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:12:56.142+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:12:56.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.105 seconds
+[2025-12-17T10:13:26.869+0000] {processor.py:161} INFO - Started process (PID=81) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:13:26.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:13:26.873+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:13:26.873+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:13:26.903+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:13:26.899+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:13:26.905+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:13:26.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.109 seconds
+[2025-12-17T10:13:58.245+0000] {processor.py:161} INFO - Started process (PID=84) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:13:58.248+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:13:58.250+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:13:58.249+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:13:58.319+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:13:58.304+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:13:58.325+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:13:58.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.161 seconds
+[2025-12-17T10:14:29.291+0000] {processor.py:161} INFO - Started process (PID=87) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:14:29.294+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:14:29.296+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:14:29.295+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:14:29.332+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:14:29.325+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:14:29.335+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:14:29.411+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.127 seconds
+[2025-12-17T10:15:01.483+0000] {processor.py:161} INFO - Started process (PID=90) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:15:01.503+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:15:01.506+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:15:01.506+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:15:01.600+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:15:01.588+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:15:01.603+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:15:01.710+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.231 seconds
+[2025-12-17T10:15:32.310+0000] {processor.py:161} INFO - Started process (PID=93) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:15:32.313+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:15:32.319+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:15:32.317+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:15:32.398+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:15:32.376+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:15:32.403+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:15:32.552+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.256 seconds
+[2025-12-17T10:16:03.226+0000] {processor.py:161} INFO - Started process (PID=96) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:16:03.229+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:16:03.231+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:16:03.230+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:16:03.259+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:16:03.253+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:16:03.261+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:16:03.316+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.096 seconds
+[2025-12-17T10:16:34.561+0000] {processor.py:161} INFO - Started process (PID=99) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:16:34.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:16:34.568+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:16:34.568+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:16:34.598+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:16:34.591+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:16:34.601+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:16:34.666+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.112 seconds
+[2025-12-17T10:17:06.285+0000] {processor.py:161} INFO - Started process (PID=102) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:17:06.287+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:17:06.289+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:17:06.289+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:17:06.322+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:17:06.316+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:17:06.325+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:17:06.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.110 seconds
+[2025-12-17T10:17:37.490+0000] {processor.py:161} INFO - Started process (PID=105) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:17:37.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:17:37.494+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:17:37.494+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:17:37.521+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:17:37.515+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:17:37.524+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:17:37.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.086 seconds
+[2025-12-17T10:18:08.608+0000] {processor.py:161} INFO - Started process (PID=108) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:18:08.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:18:08.611+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:18:08.611+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:18:08.645+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:18:08.637+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:18:08.648+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:18:08.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.111 seconds
+[2025-12-17T10:18:40.932+0000] {processor.py:161} INFO - Started process (PID=111) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:18:40.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:18:40.935+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:18:40.935+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:18:40.975+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:18:40.966+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:18:40.977+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:18:41.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.110 seconds
+[2025-12-17T10:19:12.969+0000] {processor.py:161} INFO - Started process (PID=114) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:19:12.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:19:12.983+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:19:12.981+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:19:13.046+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:19:13.029+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:19:13.049+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:19:13.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.192 seconds
+[2025-12-17T10:19:44.243+0000] {processor.py:161} INFO - Started process (PID=117) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:19:44.245+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:19:44.247+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:19:44.247+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:19:44.287+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:19:44.274+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:19:44.292+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:19:44.350+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.111 seconds
+[2025-12-17T10:20:15.616+0000] {processor.py:161} INFO - Started process (PID=120) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:20:15.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:20:15.620+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:20:15.619+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:20:15.691+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:20:15.678+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:20:15.697+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:20:15.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.179 seconds
+[2025-12-17T10:20:49.416+0000] {processor.py:161} INFO - Started process (PID=123) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:20:49.426+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:20:49.430+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:20:49.428+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:20:49.486+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:20:49.473+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:20:49.489+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:20:49.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.229 seconds
+[2025-12-17T10:21:23.213+0000] {processor.py:161} INFO - Started process (PID=126) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:21:23.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:21:23.218+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:21:23.218+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:21:23.261+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:21:23.252+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:21:23.264+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:21:23.350+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.141 seconds
+[2025-12-17T10:21:55.960+0000] {processor.py:161} INFO - Started process (PID=129) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:21:55.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:21:55.964+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:21:55.964+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:21:56.001+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:21:55.994+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:21:56.005+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:21:56.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.116 seconds
+[2025-12-17T10:22:27.470+0000] {processor.py:161} INFO - Started process (PID=132) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:22:27.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:22:27.479+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:22:27.477+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:22:27.515+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:22:27.509+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:22:27.517+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:22:27.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.113 seconds
+[2025-12-17T10:22:58.999+0000] {processor.py:161} INFO - Started process (PID=135) to work on /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:22:59.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job2_clean_store_dag.py for tasks to queue
+[2025-12-17T10:22:59.003+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:22:59.003+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:22:59.064+0000] {logging_mixin.py:188} INFO - [2025-12-17T10:22:59.053+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job2_clean_store_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job2_clean_store_dag.py", line 4, in <module>
+    from src.job2_cleaner import clean_and_store
+ModuleNotFoundError: No module named 'src'
+[2025-12-17T10:22:59.069+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job2_clean_store_dag.py
+[2025-12-17T10:22:59.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job2_clean_store_dag.py took 0.128 seconds

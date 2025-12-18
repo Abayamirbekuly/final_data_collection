@@ -1,0 +1,5 @@
+apache-airflow
+kafka-python
+requests
+pandas
+sqlalchemy
